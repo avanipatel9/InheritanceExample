@@ -2,7 +2,7 @@ package com.lambton.faculties;
 
 import com.lambton.person.Person;
 
-public class Faculty extends Person
+public abstract class Faculty extends Person
 {
     String designation;
     int totalSalary;
@@ -28,4 +28,7 @@ public class Faculty extends Person
     public void setTotalSalary(int totalSalary) {
         this.totalSalary = totalSalary;
     }
+
+    public abstract void abstractMethod();
+
 }

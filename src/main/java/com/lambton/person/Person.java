@@ -2,7 +2,7 @@ package com.lambton.person;
 
 import com.lambton.IDisplay;
 
-public class Person implements IDisplay
+public abstract class Person implements IDisplay
  {
 
      private int id;
@@ -39,8 +39,5 @@ public class Person implements IDisplay
          this.gender = gender;
      }
 
-     @Override
-     public void display() {
-         System.out.println("I am from Person");
-     }
+
  }

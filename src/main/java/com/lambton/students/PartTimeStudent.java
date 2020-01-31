@@ -18,4 +18,10 @@ public class PartTimeStudent extends Student
     public void setNoOfDays(int noOfDays) {
         this.noOfDays = noOfDays;
     }
+
+    @Override
+    public void display()
+    {
+        System.out.println("I am from Part-time Student");
+    }
 }
